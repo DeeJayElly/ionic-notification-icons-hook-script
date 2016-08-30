@@ -5,6 +5,7 @@ var path = require('path');
 
 var rootDir = process.argv[2];
 
+//specify your input, output folders and icon name
 var inputFolder = path.join(rootDir, 'resources/android/push_icons/');
 var outputFolder = path.join(rootDir, '/platforms/android/res/');
 var iconName = 'ic_stat_onesignal_default.png';
